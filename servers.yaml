@@ -1,0 +1,10 @@
+- name: server1  
+  box: "generic/ubuntu2204"
+  ram: 2048
+  ip: 192.168.1.21
+  script: "./.scripts/apps-install.sh"
+- name: server2  
+  box: "generic/ubuntu2204"
+  ram: 2048
+  ip: 192.168.1.22
+  script: "./.scripts/apps-install.sh"
